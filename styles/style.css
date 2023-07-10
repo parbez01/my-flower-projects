@@ -1,3 +1,70 @@
-p{
-    color: aqua;
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* first section design */
+
+.first-section {
+    background-color: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    display: flex;
+    width: 1920px;
+    height: 850px;
+}
+
+.first-section-content {
+    width: 600px;
+    margin-left: 220px;
+    /* text-align: center; */
+    margin-top: 180px;
+}
+
+.first-section-image {
+    margin-top: 50px;
+    margin-right: 180px;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    /* margin-top: 110px; */
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.section-btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+/* second section start */
+
+/* .flower-picture {
+    display: flex;
+}
+
+.first-picture {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.second-picture{
+
+} */
 }
