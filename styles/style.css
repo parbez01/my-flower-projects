@@ -33,7 +33,6 @@ body {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
-    /* margin-top: 110px; */
 }
 
 .section-description {
@@ -89,9 +88,6 @@ body {
 }
 
 .for-desing-one {
-    /* width: 310px;
-    height: 538px;
-    margin-top: 50px; */
     width: 310px;
     height: 428px;
     padding: 110px 78px 67px 76px;
@@ -158,6 +154,7 @@ body {
     font-size: 35px;
     font-style: normal;
 }
+
 .offer-title-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -166,16 +163,47 @@ body {
     line-height: 30px;
     margin-top: 20px;
 }
+
 .offer-image {
     margin: 100px 429px 100px 320px;
 }
+
 .offer-title {
     margin-left: 340px;
     text-align: center;
 }
+
 .extra-color {
     color: #E55473;
 }
-.xy {
-    margin-top: 200px;
+
+/* fourth section start */
+.fourth-section {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.fourth-section-image {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 240px;
+    
+}
+
+.fourth-section-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fourth-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
 }
