@@ -59,19 +59,22 @@ body {
 .featured {
     margin-top: 150px;
 }
+
 .title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-.under-title{
+
+.under-title {
     color: #272727;
-font-size: 24px;
-font-weight: 700;
-margin-top: -50px;
-text-decoration-line: underline;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -50px;
+    text-decoration-line: underline;
 }
+
 .flower-picture {
     display: flex;
     margin-top: 50px;
@@ -126,10 +129,53 @@ text-decoration-line: underline;
     margin-left: 200px;
 
 }
+
 .description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-top: 15px;
+}
+
+/* third section start */
+
+.third-section {
+    margin-top: 200px;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+}
+
+.offer-title-head {
+    color: #272727;
+    font-weight: 800px;
+    margin-left: 10px;
+    color: #272727;
+    font-size: 35px;
+    font-style: normal;
+}
+.offer-title-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 594px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.offer-image {
+    margin: 100px 429px 100px 320px;
+}
+.offer-title {
+    margin-left: 340px;
+    text-align: center;
+}
+.extra-color {
+    color: #E55473;
+}
+.xy {
+    margin-top: 200px;
 }
