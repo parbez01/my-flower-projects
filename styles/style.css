@@ -15,14 +15,11 @@ body {
     display: flex;
     width: 2000px;
     height: 850px;
-    /* height: 98vh;
-    width: 100vw; */
 }
 
 .first-section-content {
     width: 600px;
     margin-left: 220px;
-    /* text-align: center; */
     margin-top: 180px;
 }
 
