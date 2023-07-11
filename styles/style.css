@@ -13,8 +13,10 @@ body {
     background-color: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
     display: flex;
-    width: 1920px;
+    width: 2000px;
     height: 850px;
+    /* height: 98vh;
+    width: 100vw; */
 }
 
 .first-section-content {
@@ -78,6 +80,8 @@ body {
     display: flex;
     margin-top: 50px;
     text-align: center;
+    gap: 3rem;
+    margin-left: 200px;
 }
 
 .first-picture {
@@ -119,13 +123,6 @@ body {
     padding: 67px 75px 67px 75px;
 }
 
-
-.flower-picture {
-    gap: 3rem;
-    margin-left: 200px;
-
-}
-
 .description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -134,11 +131,75 @@ body {
     margin-top: 15px;
 }
 
+/* bonus part */
+
+.all-flower {
+    display: flex;
+    margin-top: 50px;
+    gap: 3rem;
+    margin-left: 185px;
+    text-align: center;
+}
+
+.bonus-flower-section {
+    margin-top: 150px;
+    background-color: #29bdc1;
+    width: 2000px;
+    height: 720px;
+}
+
+.bonus-flower {
+    text-align: center;
+}
+
+.discount-title {
+    padding-top: 40px;
+    color: rgb(210, 22, 22);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-description {
+    color: rgba(69, 4, 4, 0.6);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.first-flower {
+    width: 342px;
+    height: 396px;
+}
+
+.second-flower {
+    width: 342px;
+    height: 396px;
+}
+
+.third-flower {
+    width: 342px;
+    height: 396px;
+}
+
+.fourth-flower {
+    width: 342px;
+    height: 396px;
+}
+
+.flower-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
 /* third section start */
 
 .third-section {
-    margin-top: 200px;
-    width: 1922px;
+    margin-top: 130px;
+    width: 2000px;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -178,6 +239,7 @@ body {
 }
 
 /* fourth section start */
+
 .fourth-section {
     margin-top: 150px;
     text-align: center;
@@ -253,6 +315,7 @@ body {
 .footer-container {
     background-color: black;
     margin-top: -80px;
+    width: 2000px;
 }
 
 .footer-part {
@@ -262,17 +325,20 @@ body {
     flex-shrink: 0;
     color: white;
 }
-.footer-title{
-   color: #FFFFFF;
+
+.footer-title {
+    color: #FFFFFF;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
     padding-top: 128px;
 }
-.for-colour{
+
+.for-colour {
     color: #E55473;
 }
-.footer-description{
+
+.footer-description {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
@@ -280,7 +346,8 @@ body {
     line-height: 30px;
     margin-top: 20px;
 }
-.footer-address{
+
+.footer-address {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
