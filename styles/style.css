@@ -140,7 +140,7 @@ body {
 
 .bonus-flower-section {
     margin-top: 150px;
-    background-image: linear-gradient(145deg,rgba(39, 39, 39, 0.05) , pink);
+    background-image: linear-gradient(145deg, rgba(39, 39, 39, 0.05), pink);
     width: 1920px;
     height: 720px;
 }
@@ -169,24 +169,28 @@ body {
     width: 342px;
     height: 396px;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .second-flower {
     width: 342px;
     height: 396px;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .third-flower {
     width: 342px;
     height: 396px;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .fourth-flower {
     width: 342px;
     height: 396px;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .flower-name {
@@ -194,6 +198,76 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-top: 25px;
+}
+
+/* another bonus part */
+
+.colour-part {
+    color: #E55473;
+}
+
+.upcoming-title {
+    padding-top: 40px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.upcoming-flower {
+    display: flex;
+    margin-top: 50px;
+    gap: 3rem;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.flower-container {
+    background-image: linear-gradient(150deg, rgba(5, 151, 160, 0.15), rgba(167, 33, 98, 0.15));
+    width: 1920px;
+    height: 700px;
+}
+
+.for-first-flower {
+    width: 342px;
+    height: 396px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.for-second-flower {
+    width: 342px;
+    height: 396px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.for-third-flower {
+    width: 342px;
+    height: 396px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.for-fourth-flower {
+    width: 342px;
+    height: 396px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.click-btn {
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 25px;
+    margin-left: 850px;
+    margin-top: 60px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 800;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 /* third section start */
@@ -288,7 +362,6 @@ body {
 
 .fifth-section-title {
     color: #272727;
-    /* text-align: center; */
     font-size: 40px;
     font-weight: 800;
     padding: 122px;
@@ -296,7 +369,6 @@ body {
 
 .fifth-section-description {
     color: rgba(39, 39, 39, 0.60);
-    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
     margin-top: -120px;
