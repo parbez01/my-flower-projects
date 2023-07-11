@@ -13,7 +13,7 @@ body {
     background-color: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
     display: flex;
-    width: 2000px;
+    width: 1920px;
     height: 850px;
 }
 
@@ -43,9 +43,9 @@ body {
 }
 
 .section-btn {
-    border-radius: 8px;
+    border-radius: 15px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 19px 42px;
     border: 0;
     color: white;
     font-size: 20px;
@@ -141,7 +141,7 @@ body {
 .bonus-flower-section {
     margin-top: 150px;
     background-image: linear-gradient(145deg,rgba(39, 39, 39, 0.05) , pink);
-    width: 2000px;
+    width: 1920px;
     height: 720px;
 }
 
@@ -200,7 +200,7 @@ body {
 
 .third-section {
     margin-top: 130px;
-    width: 2000px;
+    width: 1920px;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -309,6 +309,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding-left: 10px;
+    border-radius: 5px;
+    border: 0;
 }
 
 /* footer part */
@@ -316,12 +318,12 @@ body {
 .footer-container {
     background-color: black;
     margin-top: -80px;
-    width: 2000px;
+    width: 1920px;
 }
 
 .footer-part {
     background: #111010;
-    width: 1922px;
+    width: 1920px;
     height: 449px;
     flex-shrink: 0;
     color: white;
